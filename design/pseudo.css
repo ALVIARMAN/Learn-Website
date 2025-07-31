@@ -1,0 +1,26 @@
+
+
+#divhover button{
+    display: none;
+}
+#divhover:hover button{
+    display: block;
+}
+
+/* Contact with cursor it will change the color and font size */
+button:hover {
+    font-size: 20px;
+    color: rgb(21, 88, 147);
+    
+}
+/* After left click*/
+button:active {
+    font-size: 20px;
+    color: rgb(27, 155, 82);
+    
+}
+
+
+li:hover{
+    background-color: rgb(209, 209, 181);
+}

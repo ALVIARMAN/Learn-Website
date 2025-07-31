@@ -1,0 +1,45 @@
+
+h1{
+    text-align:center;
+}
+
+
+
+/* Using class to change the style */
+.odd{
+    background-color:lightgray;
+    color:rgb(144,80,44);
+}
+.even{
+    background-color: lightblue;
+    color:cadetblue;
+}
+
+
+/* Using Id to change the style in html */
+#para1{
+    border: 2px;
+    border-color: rgb(41, 122, 193);
+    border-style: ridge;
+    float:initial;
+}
+
+
+/*Change the First letter in paragraph.html(Style with CSS)*/
+#h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+    color: blue;
+}
+
+
+
+
+/* float text around the image */
+#xiao{
+    float: left;
+    margin-right: 10px;
+}
+
+
+
